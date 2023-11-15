@@ -9,7 +9,7 @@ int main() {
 
     std::map<std::string, int> edad;
     edad["Juan"] = 25;
-    edad.erase("Juan");
+    edad.erase("Juan"); // Esto elimina a Juan del mapa, por eso en la salida esta vacia
 
     std::set<int> conjunto {1, 2, 3, 4, 5};
     conjunto.insert(6);
