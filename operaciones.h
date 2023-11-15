@@ -22,4 +22,13 @@ namespace Matematicas {
         }
         return resultado;
     }
+
+    int logaritmo(int a, int b); {
+        int resultado = 0;
+        while (a > b) {
+            a /= b;
+            resultado++;
+        }
+        return resultado;
+    }
 }
