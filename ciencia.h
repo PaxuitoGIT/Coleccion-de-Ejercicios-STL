@@ -9,7 +9,7 @@ namespace Ciencia {
     }
     namespace Quimica {
         void reaccionQuimica() {
-            std::cout << "Reaccion quimica" << std::endl;
+            std::cout << "Reaccion quimica:  2H₂ + O₂ -> 2H₂O" << std::endl;
         }
     }
     namespace Matematicas {
