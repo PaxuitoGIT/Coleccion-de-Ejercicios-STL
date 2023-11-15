@@ -15,5 +15,23 @@ int main() {
     conjunto.insert(6);
     conjunto.erase(1);
 
+    std::cout << "Vector: ";
+    for (const auto& num : numeros) {
+        std::cout << num << " ";
+    }
+    std::cout << std::endl;
+
+    std::cout << "Mapa: ";
+    for (const auto& edad : edad) {
+        std::cout << "(" << edad.first << ", " << edad.second << ") ";
+    }
+    std::cout << std::endl;
+
+    std::cout << "Conjunto: ";
+    for (const auto& elem : conjunto) {
+        std::cout << elem << " ";
+    }
+    std::cout << std::endl;
+
     return 0;
 }
