@@ -31,4 +31,12 @@ namespace Matematicas {
         }
         return resultado;
     }
+
+    int raiz(int a, int b); {
+        int resultado = 1;
+        while (potencia(resultado, b) < a) {
+            resultado++;
+        }
+        return resultado;
+    }
 }
