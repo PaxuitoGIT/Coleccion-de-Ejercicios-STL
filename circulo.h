@@ -5,6 +5,7 @@ namespace Geometria {
         private:
         double radio;
         public:
+        Circulo(double r) : radio(r) {}
     double calcularAreaCirculo(double radio) {
         return M_PI * radio * radio;
     }

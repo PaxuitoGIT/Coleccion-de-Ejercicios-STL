@@ -12,11 +12,12 @@ int main() {
     double ladoCuadrado = 6.0;
     double baseRectangulo = 13.0;
     double alturaRectangulo = 7.0;
+    Geometria::Circulo c(5);
 
     std::cout << "Area del triangulo: " << Geometria::calcularAreaTriangulo(baseTriangulo, alturaTriangulo) << std::endl;
-    std::cout << "Area del circulo: " << Geometria::calcularAreaCirculo(radioCirculo) << std::endl;
+    std::cout << "Area del circulo: " << c.calcularAreaCirculo(radioCirculo) << std::endl;
     std::cout << "Area del cuadrado: " << Geometria::calcularAreaCuadrado(ladoCuadrado) << std::endl;
     std::cout << "Area del rectangulo: " << Geometria::calcularAreaRectangulo(baseRectangulo, alturaRectangulo) << std::endl;
-
+    std::cout << "Perimetro del circulo: " << c.calcularPerimetroCirculo(radioCirculo) << std::endl;
     return 0;
 }
